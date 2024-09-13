@@ -19,7 +19,7 @@ public class TaskProcessorService {
 
   private static final Logger log = LoggerFactory.getLogger(TaskProcessorService.class);
   private final TaskResultRepository taskResultRepository;
-  private final String QUEUE_NAME = "taskQueue_TYPE_1";
+  private final String QUEUE_NAME = "taskQueue_TYPE_2";
   private boolean isProcessing = false;
 
   @Autowired private RabbitTemplate rabbitTemplate;
